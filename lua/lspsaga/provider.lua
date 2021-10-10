@@ -322,7 +322,7 @@ function Finder:auto_open_preview()
       opts.row = finder_win_opts.row + height + 2
       opts.col = finder_win_opts.col
       opts.width = min_width
-      opts.height = 8
+      opts.height = 40
       if self.WIN_HEIGHT - height - opts.row < 4 then
         return
       end
